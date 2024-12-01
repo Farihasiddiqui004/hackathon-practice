@@ -1,0 +1,74 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./doctor.jpeg);
+    background-size: cover;
+}
+
+/* Content Section */
+.content {
+    text-align: center;
+    margin-top: 150px;
+}
+/* h1,h2 {
+    color: white;
+} */
+
+/* Arrow Button Styling */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .custom-arrow-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 50%;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .custom-arrow-button:hover {
+    background-color: #f0f0f0
+  }
+  
+  .button-container p {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  
+
+
+/* Styling for next section */
+#next-section {
+    
+    padding: 50px;
+    background-color: transparent;
+    margin-top: 20px;
+    text-align: center;
+}
+#next-section p{
+    margin-top: 10px;
+}

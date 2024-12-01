@@ -1,0 +1,59 @@
+/* Form Styling */
+body {
+    background-image: url(./doctor.jpeg);
+    background-size: cover;
+}
+
+/* .signup h1 { */
+    /* margin-bottom: 10px; */
+    /* Space between heading and paragraph */
+/* } */
+
+.signup p {
+    margin-top: -25px;
+}
+
+.signup {
+    text-align: center;
+    /* Center text inside the signup box */
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    width: 50%;
+    margin: 30px auto 0 auto;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.signup-form label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.signup-form input,
+.signup-form select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
